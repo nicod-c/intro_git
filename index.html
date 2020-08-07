@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a GIT</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Introducción a GIT</h1>
+    <p>Un programa hecho con amor y mucho código :D</p>
+    <ol>
+        <li><b>git init</b></li>
+        <li><b>git config</b> INDICAMOS USUARIO <b>user.name</b> ponemos nombre de usuario de github o el que usemos</li>
+        <li><b>git config user.email</b> y nuestro email</li>        
+    </ol>
+
+    <p style="text-align: left;">NOTA: Si queremos usar mismo usario para todos los proyectos: usamos <b>git config <u>global</u> user.name</b> ...</p>
+
+    <ul>
+        <li>GIT STATUS: chequeamos qué archivos se crearon o modificaron</li>
+        <img src="img/git_status.png" alt="status" />
+        <li>GIT ADD  archivo.extensión: adicionamos al repositorio el archivo</li>
+        <img src="img/git_add.png" alt="add" />
+        <li>GIT COMMIT -m 'descripción breve de lo que hicimos': Agregamos al repositorio todo lo que sumamos con el add</li>
+        <img src="img/git_commit.png" alt="commit" />
+        
+    </ul>
+    <ol>
+        <li>Creamos repositorio en Github</li>
+        <li>Hacemos: <b>git remote add origin</b> y url del repositorio dado por Github https://github.com/nicod-c/intro_git_eant.git</li>
+        <li><b>git push -u origin master</b>'PUSHEAMOS' al repositorio de Github todo lo que hiciemos</li>
+    </ol>
+</body>
+</html>
